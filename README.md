@@ -6,11 +6,11 @@ Emergency security tools for Linux servers. Created after surviving a real crypt
 
 ```bash
 # Download and run scanner
-curl -sSL https://raw.githubusercontent.com/YOUR_REPO/security-toolkit/main/scan.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/maxtors-debug/server-security-toolkit/main/scan.sh | sudo bash
 
 # Or clone and use all tools
-git clone https://github.com/YOUR_REPO/security-toolkit.git
-cd security-toolkit
+git clone https://github.com/maxtors-debug/server-security-toolkit.git
+cd server-security-toolkit
 sudo ./scan.sh        # Scan for malware
 sudo ./harden.sh      # Harden server security
 sudo ./monitor.sh     # Start 24/7 monitoring
